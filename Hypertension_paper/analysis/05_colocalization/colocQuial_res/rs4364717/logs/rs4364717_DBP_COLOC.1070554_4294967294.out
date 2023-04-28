@@ -1,0 +1,1747 @@
+[1] "trait"
+[1] "DBP"
+[1] "trait_file_header_info"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/DBP_Evangelou_parsed.txt"
+[1] "Tested_Allele"
+[1] "Other_Allele"
+[1] "SNP"
+[1] "CHR"
+[1] "POS"
+[1] "P"
+[1] "N"
+[1] "Freq_Tested_Allele"
+[1] "traitType:"
+[1] "quant"
+[1] 9
+[1] "Locus Info:"
+[1] 9
+[1] 21796220
+[1] 21801776
+[1] "rs4364717"
+[1] "QTL type:"
+[1] "eqtl"
+[1] TRUE
+[1] "trait input file successfully loaded"
+   CHR      POS        SNP Tested_Allele Other_Allele Freq_Tested_Allele   BETA
+1:   9 21796220 rs10119568             A            G             0.4168 0.0934
+2:   9 21796791 rs10119693             A            G             0.4138 0.0931
+3:   9 21801530  rs4364717             A            G             0.5475 0.1006
+4:   9 21801776 rs10738601             A            T             0.5819 0.0926
+       SE         P      N Ref_Allele Alt_Allele
+1: 0.0176 1.059e-07 751218          G          A
+2: 0.0176 1.185e-07 750625          G          A
+3: 0.0174 7.555e-09 749469          A          G
+4: 0.0175 1.262e-07 752466          A          T
+[1] "rs10119568" "rs10119693" "rs4364717" 
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/data/Coloq/chr_9_snp151_hash_table.json"
+$rs236
+[1] "chr9_119661416"
+
+$rs237
+[1] "chr9_119661407"
+
+$rs238
+[1] "chr9_96023994"
+
+[1] "hash table loaded"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/ColocQuiaL-main/GTEx_v8_Tissue_Summary_with_filenames_all.csv"
+                          Tissue NumberRNASeqandGTSamples NumberRNASeqSamples
+1              Muscle - Skeletal                      706                 803
+2                    Whole Blood                      670                 755
+3 Skin - Sun Exposed (Lower leg)                      605                 701
+4                Artery - Tibial                      584                 663
+5         Adipose - Subcutaneous                      581                 663
+6                        Thyroid                      574                 653
+  Number_of_eGenes                      allPairsTabixFilename
+1            13532            Muscle_Skeletal.allpairs.tab.gz
+2            12360                Whole_Blood.allpairs.tab.gz
+3            16967 Skin_Sun_Exposed_Lower_leg.allpairs.tab.gz
+4            15008              Artery_Tibial.allpairs.tab.gz
+5            15607       Adipose_Subcutaneous.allpairs.tab.gz
+6            17684                    Thyroid.allpairs.tab.gz
+                                              sigPairsTabixFilename
+1            Muscle_Skeletal.v8.v8.signif_variant_gene_pairs.tab.gz
+2                Whole_Blood.v8.v8.signif_variant_gene_pairs.tab.gz
+3 Skin_Sun_Exposed_Lower_leg.v8.v8.signif_variant_gene_pairs.tab.gz
+4              Artery_Tibial.v8.v8.signif_variant_gene_pairs.tab.gz
+5       Adipose_Subcutaneous.v8.v8.signif_variant_gene_pairs.tab.gz
+6                    Thyroid.v8.v8.signif_variant_gene_pairs.tab.gz
+[1] "chr9_21801531"
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 120  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.86e-27  6.28e-26  8.61e-05  8.91e-04  9.99e-01 
+[1] "PP abf for shared variant: 99.9%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3     0.6303067  1
+        2     0.2448257  1
+        1     0.1248676  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   34.01513 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.14e-36  1.12e-33  1.60e-05  1.48e-03  9.99e-01 
+[1] "PP abf for shared variant: 99.9%"
+   nsnps      hit1      hit2    PP.H0.abf    PP.H1.abf   PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs4364717 5.144273e-36 1.119083e-33 1.59799e-05 0.001479252
+   PP.H4.abf idx1 idx2
+1: 0.9985048    1    1
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000264801"
+[1] "ENSG00000264801.1"
+[1] "ENSG00000264801"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 120  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+  0.01730   0.38000   0.00021   0.00401   0.59800 
+[1] "PP abf for shared variant: 59.8%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2     0.6899719  1
+        1     0.2314966  1
+        3     0.0785315  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   1.649266 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.002470  0.537000  0.000033  0.006270  0.454000 
+[1] "PP abf for shared variant: 45.4%"
+   nsnps      hit1       hit2   PP.H0.abf PP.H1.abf   PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10738601 0.002467342 0.5367445 3.30078e-05 0.006271537
+   PP.H4.abf idx1 idx2
+1: 0.4544836    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 72 14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.79e-03  1.71e-01  8.64e-05  1.08e-03  8.20e-01 
+[1] "PP abf for shared variant: 82%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3     0.4600430  1
+        2     0.4147763  1
+        1     0.1251806  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   1.618526 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.23e-03  2.68e-01  1.54e-05  1.88e-03  7.29e-01 
+[1] "PP abf for shared variant: 72.9%"
+   nsnps      hit1      hit2   PP.H0.abf PP.H1.abf    PP.H2.abf  PP.H3.abf
+1:     3 rs4364717 rs4364717 0.001232227 0.2680583 1.535813e-05 0.00188338
+   PP.H4.abf idx1 idx2
+1: 0.7288108    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 144  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.58e-04  1.00e-02  5.52e-05  2.22e-04  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.94677622  1
+        2    0.04354174  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.810489 0.8187119 0.8187119      2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.63e-05  1.22e-02  1.09e-05  4.00e-04  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+   nsnps      hit1      hit2    PP.H0.abf PP.H1.abf    PP.H2.abf    PP.H3.abf
+1:     3 rs4364717 rs4364717 5.630194e-05 0.0122479 1.091776e-05 0.0004004774
+   PP.H4.abf idx1 idx2
+1: 0.9872844    1    1
+[1] "ENSG00000229298.1"
+[1] "TUBB8P1"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 144  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.01e-02  4.42e-01  4.21e-05  3.86e-04  5.38e-01 
+[1] "PP abf for shared variant: 53.8%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3     0.6408218  1
+        1     0.2318154  1
+        2     0.1273628  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1  0.8599123 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.80e-03  6.10e-01  6.09e-06  5.53e-04  3.86e-01 
+[1] "PP abf for shared variant: 38.6%"
+   nsnps      hit1      hit2   PP.H0.abf PP.H1.abf    PP.H2.abf    PP.H3.abf
+1:     3 rs4364717 rs4364717 0.002804937 0.6101849 6.094761e-06 0.0005529496
+   PP.H4.abf idx1 idx2
+1: 0.3864511    1    1
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000264801"
+[1] "ENSG00000264801.1"
+[1] "ENSG00000264801"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 144  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000101  0.002220  0.000252  0.004540  0.993000 
+[1] "PP abf for shared variant: 99.3%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2     0.8134517  1
+        3     0.1156885  1
+        1     0.0708598  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   4.322769 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.18e-06  2.00e-03  5.79e-05  1.06e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+   nsnps      hit1       hit2    PP.H0.abf   PP.H1.abf    PP.H2.abf  PP.H3.abf
+1:     3 rs4364717 rs10738601 9.175462e-06 0.001996026 5.787869e-05 0.01061627
+   PP.H4.abf idx1 idx2
+1: 0.9873207    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.003570  0.078300  0.000189  0.003240  0.915000 
+[1] "PP abf for shared variant: 91.5%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1     0.4635271  1
+        2     0.3569375  1
+        3     0.1795354  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.379608 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.37e-04  1.17e-01  3.86e-05  6.65e-03  8.76e-01 
+[1] "PP abf for shared variant: 87.6%"
+   nsnps      hit1       hit2    PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10119693 0.0005373131 0.1168869 3.863288e-05 0.006652412
+   PP.H4.abf idx1 idx2
+1: 0.8758848    1    1
+[1] "ENSG00000229298.1"
+[1] "TUBB8P1"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.39e-04  9.63e-03  6.23e-05  3.78e-04  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3     0.8500344  1
+        1     0.1015605  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.892895 0.8054219 0.8054219      1,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.15e-05  1.12e-02  1.21e-05  6.49e-04  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+   nsnps      hit1      hit2    PP.H0.abf  PP.H1.abf  PP.H2.abf    PP.H3.abf
+1:     3 rs4364717 rs4364717 5.147345e-05 0.01119751 1.2067e-05 0.0006488712
+   PP.H4.abf idx1 idx2
+1: 0.9880901    1    1
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000264801"
+[1] "ENSG00000264801.1"
+[1] "ENSG00000264801"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.020500  0.451000  0.000129  0.002320  0.526000 
+[1] "PP abf for shared variant: 52.6%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2     0.6995002  1
+        1     0.1576944  1
+        3     0.1428054  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   1.366607 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.81e-03  6.12e-01  1.96e-05  3.51e-03  3.82e-01 
+[1] "PP abf for shared variant: 38.2%"
+   nsnps      hit1       hit2   PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10738601 0.002812976 0.6119337 1.962884e-05 0.003506596
+   PP.H4.abf idx1 idx2
+1: 0.3817271    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 168  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.63e-08  2.11e-06  5.94e-05  3.05e-04  1.00e+00 
+[1] "PP abf for shared variant: 100%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.91507582  1
+        2    0.07550962  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   7.331548 0.8187119 0.8187119      2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.77e-09  3.85e-07  1.14e-05  4.82e-04  1.00e+00 
+[1] "PP abf for shared variant: 100%"
+   nsnps      hit1      hit2    PP.H0.abf    PP.H1.abf    PP.H2.abf
+1:     3 rs4364717 rs4364717 1.771985e-09 3.854769e-07 1.140589e-05
+      PP.H3.abf PP.H4.abf idx1 idx2
+1: 0.0004822198  0.999506    1    1
+[1] "ENSG00000229298.1"
+[1] "TUBB8P1"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 168  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.80e-02  6.16e-01  5.74e-05  9.04e-04  3.55e-01 
+[1] "PP abf for shared variant: 35.5%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1     0.3654890  1
+        2     0.3638877  1
+        3     0.2706233  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1  0.8504468 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.52e-03  7.65e-01  7.48e-06  1.17e-03  2.30e-01 
+[1] "PP abf for shared variant: 23%"
+   nsnps      hit1       hit2   PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10119693 0.003518866 0.7654927 7.481192e-06 0.001167829
+   PP.H4.abf idx1 idx2
+1: 0.2298131    1    1
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000264801"
+[1] "ENSG00000264801.1"
+[1] "ENSG00000264801"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 168  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.002450  0.053900  0.000283  0.005270  0.938000 
+[1] "PP abf for shared variant: 93.8%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1    0.76683760  1
+        2    0.14561288  1
+        3    0.08754952  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.785976 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.43e-04  7.46e-02  6.28e-05  1.18e-02  9.13e-01 
+[1] "PP abf for shared variant: 91.3%"
+   nsnps      hit1       hit2    PP.H0.abf  PP.H1.abf PP.H2.abf  PP.H3.abf
+1:     3 rs4364717 rs10119693 0.0003428232 0.07457763 6.283e-05 0.01184166
+   PP.H4.abf idx1 idx2
+1: 0.9131751    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 180  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.00e-04  1.76e-02  8.42e-05  8.67e-04  9.81e-01 
+[1] "PP abf for shared variant: 98.1%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3     0.6027537  1
+        1     0.2316843  1
+        2     0.1655620  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.721419 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.03e-04  2.24e-02  1.63e-05  1.58e-03  9.76e-01 
+[1] "PP abf for shared variant: 97.6%"
+   nsnps      hit1      hit2    PP.H0.abf  PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs4364717 0.0001028924 0.02238316 1.625263e-05 0.001583763
+   PP.H4.abf idx1 idx2
+1: 0.9759139    1    1
+[1] "ENSG00000229298.1"
+[1] "TUBB8P1"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 180  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000351  0.007700  0.000654  0.013400  0.978000 
+[1] "PP abf for shared variant: 97.8%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2     0.5131685  1
+        1     0.4820041  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1    4.20818 0.9823208 0.9823208      1,2
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.75e-05  5.99e-03  1.33e-04  2.71e-02  9.67e-01 
+[1] "PP abf for shared variant: 96.7%"
+   nsnps      hit1       hit2    PP.H0.abf   PP.H1.abf    PP.H2.abf  PP.H3.abf
+1:     3 rs4364717 rs10738601 2.752986e-05 0.005988835 0.0001333845 0.02708287
+   PP.H4.abf idx1 idx2
+1: 0.9667674    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 168  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.53e-02  5.56e-01  3.18e-05  2.80e-04  4.18e-01 
+[1] "PP abf for shared variant: 41.8%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.65768202  1
+        1    0.25866986  1
+        2    0.08364812  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1  0.6371459 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.30e-03  7.18e-01  4.29e-06  3.77e-04  2.79e-01 
+[1] "PP abf for shared variant: 27.9%"
+   nsnps      hit1      hit2   PP.H0.abf PP.H1.abf    PP.H2.abf    PP.H3.abf
+1:     3 rs4364717 rs4364717 0.003299458 0.7177627 4.292494e-06 0.0003766737
+   PP.H4.abf idx1 idx2
+1: 0.2785569    1    1
+[1] "ENSG00000229298.1"
+[1] "TUBB8P1"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 168  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.18e-03  4.80e-02  9.12e-05  1.05e-03  9.49e-01 
+[1] "PP abf for shared variant: 94.9%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3     0.5272875  1
+        1     0.2491880  1
+        2     0.2235246  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.285427 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.02e-04  6.56e-02  1.75e-05  1.93e-03  9.32e-01 
+[1] "PP abf for shared variant: 93.2%"
+   nsnps      hit1      hit2    PP.H0.abf  PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs4364717 0.0003016605 0.06562311 1.746091e-05 0.001934192
+   PP.H4.abf idx1 idx2
+1: 0.9321236    1    1
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000264801"
+[1] "ENSG00000264801.1"
+[1] "ENSG00000264801"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 168  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.011400  0.250000  0.000229  0.004290  0.735000 
+[1] "PP abf for shared variant: 73.5%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1    0.62428760  1
+        2    0.28797748  1
+        3    0.08773492  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   1.937303 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.66e-03  3.62e-01  4.32e-05  8.13e-03  6.29e-01 
+[1] "PP abf for shared variant: 62.9%"
+   nsnps      hit1       hit2   PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10119693 0.001662493 0.3616581 4.317025e-05 0.008134235
+   PP.H4.abf idx1 idx2
+1: 0.6285021    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 144  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.27e-02  4.99e-01  6.36e-05  9.19e-04  4.78e-01 
+[1] "PP abf for shared variant: 47.8%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1     0.4649437  1
+        3     0.3421726  1
+        2     0.1928837  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1  0.9946879 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.04e-03  6.62e-01  9.02e-06  1.29e-03  3.34e-01 
+[1] "PP abf for shared variant: 33.4%"
+   nsnps      hit1       hit2  PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10119693 0.00304224 0.6618077 9.015766e-06 0.001293591
+   PP.H4.abf idx1 idx2
+1: 0.3338475    1    1
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000264801"
+[1] "ENSG00000264801.1"
+[1] "ENSG00000264801"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 144  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.004370  0.096000  0.000186  0.003190  0.896000 
+[1] "PP abf for shared variant: 89.6%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2    0.72937914  1
+        3    0.17158418  1
+        1    0.09903668  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.320217 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000622  0.135000  0.000039  0.006770  0.857000 
+[1] "PP abf for shared variant: 85.7%"
+   nsnps      hit1       hit2    PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10738601 0.0006216742 0.1352388 3.898534e-05 0.006766187
+   PP.H4.abf idx1 idx2
+1: 0.8573344    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.48e-03  2.08e-01  4.26e-05  1.53e-04  7.82e-01 
+[1] "PP abf for shared variant: 78.2%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3     0.9614446  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   1.241148         1         1        3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.43e-03  3.12e-01  7.49e-06  2.55e-04  6.87e-01 
+[1] "PP abf for shared variant: 68.7%"
+   nsnps      hit1      hit2   PP.H0.abf PP.H1.abf    PP.H2.abf    PP.H3.abf
+1:     3 rs4364717 rs4364717 0.001432294 0.3115807 7.486885e-06 0.0002552454
+   PP.H4.abf idx1 idx2
+1: 0.6867243    1    1
+[1] "ENSG00000229298.1"
+[1] "TUBB8P1"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.003750  0.082300  0.000158  0.002560  0.911000 
+[1] "PP abf for shared variant: 91.1%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2     0.4840296  1
+        1     0.2831325  1
+        3     0.2328379  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.293649 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000542  0.118000  0.000032  0.005210  0.876000 
+[1] "PP abf for shared variant: 87.6%"
+   nsnps      hit1       hit2    PP.H0.abf PP.H1.abf   PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10738601 0.0005423636 0.1179856 3.19934e-05 0.005207366
+   PP.H4.abf idx1 idx2
+1: 0.8762327    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 204  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.004180  0.091700  0.000133  0.002010  0.902000 
+[1] "PP abf for shared variant: 90.2%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1     0.4050337  1
+        2     0.2975065  1
+        3     0.2974599  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.162558 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.99e-04  1.30e-01  2.61e-05  3.96e-03  8.65e-01 
+[1] "PP abf for shared variant: 86.5%"
+   nsnps      hit1       hit2    PP.H0.abf PP.H1.abf    PP.H2.abf  PP.H3.abf
+1:     3 rs4364717 rs10119693 0.0005993913 0.1303913 2.614509e-05 0.00395754
+   PP.H4.abf idx1 idx2
+1: 0.8650256    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 168  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.004990  0.110000  0.000126  0.001880  0.883000 
+[1] "PP abf for shared variant: 88.3%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1     0.5324353  1
+        3     0.3043738  1
+        2     0.1631908  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.074726 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000702  0.153000  0.000025  0.003760  0.843000 
+[1] "PP abf for shared variant: 84.3%"
+   nsnps      hit1       hit2    PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10119693 0.0007020808 0.1527304 2.501697e-05 0.003756611
+   PP.H4.abf idx1 idx2
+1: 0.8427859    1    1
+[1] "ENSG00000229298.1"
+[1] "TUBB8P1"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 168  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.40e-02  5.26e-01  6.57e-05  9.93e-04  4.49e-01 
+[1] "PP abf for shared variant: 44.9%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2     0.4772450  1
+        3     0.3036219  1
+        1     0.2191331  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   0.989368 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.15e-03  6.85e-01  9.22e-06  1.39e-03  3.10e-01 
+[1] "PP abf for shared variant: 31%"
+   nsnps      hit1       hit2   PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10738601 0.003149976 0.6852445 9.221393e-06 0.001385597
+   PP.H4.abf idx1 idx2
+1: 0.3102107    1    1
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000264801"
+[1] "ENSG00000264801.1"
+[1] "ENSG00000264801"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 168  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.013200  0.290000  0.000194  0.003570  0.693000 
+[1] "PP abf for shared variant: 69.3%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1     0.7386560  1
+        2     0.1604437  1
+        3     0.1009003  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   1.821339 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.87e-03  4.07e-01  3.72e-05  6.92e-03  5.84e-01 
+[1] "PP abf for shared variant: 58.4%"
+   nsnps      hit1       hit2   PP.H0.abf PP.H1.abf   PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10119693 0.001870238 0.4068509 3.71841e-05 0.006920372
+   PP.H4.abf idx1 idx2
+1: 0.5843214    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.040600  0.892000  0.000008  0.000108  0.067600 
+[1] "PP abf for shared variant: 6.76%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3     0.3427466  1
+        2     0.3362959  1
+        1     0.3209574  1
+
+Credible sets summary:
+
+ cs  cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1 0.001670722 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.35e-03  9.47e-01  1.31e-06  1.88e-04  4.86e-02 
+[1] "PP abf for shared variant: 4.86%"
+   nsnps      hit1      hit2   PP.H0.abf PP.H1.abf    PP.H2.abf    PP.H3.abf
+1:     3 rs4364717 rs4364717 0.004352511 0.9468434 1.310786e-06 0.0001879182
+    PP.H4.abf idx1 idx2
+1: 0.04861484    1    1
+[1] "ENSG00000229298.1"
+[1] "TUBB8P1"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.003520  0.077200  0.000192  0.003300  0.916000 
+[1] "PP abf for shared variant: 91.6%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1     0.7265854  1
+        3     0.1598904  1
+        2     0.1135241  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.482399 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.67e-04  1.02e-01  4.26e-05  7.48e-03  8.90e-01 
+[1] "PP abf for shared variant: 89%"
+   nsnps      hit1       hit2    PP.H0.abf PP.H1.abf    PP.H2.abf  PP.H3.abf
+1:     3 rs4364717 rs10119693 0.0004671391 0.1016212 4.255659e-05 0.00747696
+   PP.H4.abf idx1 idx2
+1: 0.8903921    1    1
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000264801"
+[1] "ENSG00000264801.1"
+[1] "ENSG00000264801"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.001600  0.035000  0.000267  0.004910  0.958000 
+[1] "PP abf for shared variant: 95.8%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1    0.63962526  1
+        2    0.26428185  1
+        3    0.09609289  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   3.057988 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.000181  0.039400  0.000062  0.011600  0.949000 
+[1] "PP abf for shared variant: 94.9%"
+   nsnps      hit1       hit2   PP.H0.abf  PP.H1.abf    PP.H2.abf  PP.H3.abf
+1:     3 rs4364717 rs10119693 0.000180925 0.03935836 6.203094e-05 0.01159658
+   PP.H4.abf idx1 idx2
+1: 0.9488021    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Breast_Mammary_Tissue"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 180  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.023000  0.505000  0.000157  0.002980  0.469000 
+[1] "PP abf for shared variant: 46.9%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1    0.57003630  1
+        2    0.35853699  1
+        3    0.07142671  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   1.475359 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.96e-03  6.44e-01  2.65e-05  5.07e-03  3.48e-01 
+[1] "PP abf for shared variant: 34.8%"
+   nsnps      hit1       hit2  PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10119693 0.00295959 0.6438281 2.652848e-05 0.005074772
+   PP.H4.abf idx1 idx2
+1:  0.348111    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.38e-02  3.04e-01  9.03e-05  1.30e-03  6.81e-01 
+[1] "PP abf for shared variant: 68.1%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2     0.5477289  1
+        3     0.3377663  1
+        1     0.1145048  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   1.445679 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.90e-03  4.13e-01  1.59e-05  2.29e-03  5.83e-01 
+[1] "PP abf for shared variant: 58.3%"
+   nsnps      hit1       hit2   PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10738601 0.001898769 0.4130573 1.589541e-05 0.002292411
+   PP.H4.abf idx1 idx2
+1: 0.5827356    1    1
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000264801"
+[1] "ENSG00000264801.1"
+[1] "ENSG00000264801"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.003090  0.067900  0.000157  0.002530  0.926000 
+[1] "PP abf for shared variant: 92.6%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2     0.4103685  1
+        1     0.3587068  1
+        3     0.2309247  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.514657 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.44e-04  7.49e-02  3.38e-05  5.51e-03  9.19e-01 
+[1] "PP abf for shared variant: 91.9%"
+   nsnps      hit1       hit2    PP.H0.abf  PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10738601 0.0003442259 0.07488276 3.377702e-05 0.005509381
+   PP.H4.abf idx1 idx2
+1: 0.9192299    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 108  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.58e-02  5.67e-01  6.42e-05  1.00e-03  4.06e-01 
+[1] "PP abf for shared variant: 40.6%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1     0.3989533  1
+        2     0.3300294  1
+        3     0.2710173  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1  0.9586546 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.30e-03  7.18e-01  9.01e-06  1.41e-03  2.77e-01 
+[1] "PP abf for shared variant: 27.7%"
+   nsnps      hit1       hit2   PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10119693 0.003302018 0.7183196 9.006484e-06 0.001405339
+   PP.H4.abf idx1 idx2
+1:  0.276964    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Heart_Atrial_Appendage"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 120  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.009670  0.212000  0.000133  0.002150  0.776000 
+[1] "PP abf for shared variant: 77.6%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1     0.5330436  1
+        2     0.2391466  1
+        3     0.2278098  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   1.837436 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.29e-03  2.80e-01  2.65e-05  4.34e-03  7.15e-01 
+[1] "PP abf for shared variant: 71.5%"
+   nsnps      hit1       hit2  PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10119693 0.00128606  0.279769 2.653496e-05 0.004343254
+   PP.H4.abf idx1 idx2
+1: 0.7145751    1    1
+[1] "ENSG00000229298.1"
+[1] "TUBB8P1"
+[1] "Colon_Transverse"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 144  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.65e-03  1.02e-01  7.41e-05  7.34e-04  8.92e-01 
+[1] "PP abf for shared variant: 89.2%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.63102705  1
+        1    0.31888999  1
+        2    0.05008296  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   1.933204 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.47e-04  1.19e-01  1.41e-05  1.30e-03  8.79e-01 
+[1] "PP abf for shared variant: 87.9%"
+   nsnps      hit1      hit2    PP.H0.abf PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs4364717 0.0005465658 0.1188997 1.405942e-05 0.001300002
+   PP.H4.abf idx1 idx2
+1: 0.8792397    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Esophagus_Gastroesophageal_Junction"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.92e-02  8.61e-01  1.88e-05  3.13e-04  9.93e-02 
+[1] "PP abf for shared variant: 9.93%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2     0.4235975  1
+        1     0.3451101  1
+        3     0.2312924  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1  0.2222459 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.31e-03  9.37e-01  2.15e-06  3.51e-04  5.87e-02 
+[1] "PP abf for shared variant: 5.87%"
+   nsnps      hit1       hit2   PP.H0.abf PP.H1.abf    PP.H2.abf    PP.H3.abf
+1:     3 rs4364717 rs10738601 0.004305555 0.9366286 2.154747e-06 0.0003513182
+    PP.H4.abf idx1 idx2
+1: 0.05871232    1    1
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000264801"
+[1] "ENSG00000264801.1"
+[1] "ENSG00000264801"
+[1] "Esophagus_Gastroesophageal_Junction"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 156  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 0.001920  0.042100  0.000167  0.002720  0.953000 
+[1] "PP abf for shared variant: 95.3%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2    0.71840695  1
+        3    0.20026300  1
+        1    0.08133005  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   2.946753 0.8670099 0.8054219    1,2,3
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.48e-04  3.21e-02  3.92e-05  6.60e-03  9.61e-01 
+[1] "PP abf for shared variant: 96.1%"
+   nsnps      hit1       hit2    PP.H0.abf  PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     3 rs4364717 rs10738601 0.0001476718 0.03212447 3.918967e-05 0.006603135
+   PP.H4.abf idx1 idx2
+1: 0.9610855    1    1
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Stomach"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 192  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.14e-02  9.10e-01  6.15e-06  8.67e-05  4.84e-02 
+[1] "PP abf for shared variant: 4.84%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        3    0.87458325  1
+        2    0.06297466  1
+        1    0.06244209  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   5.860417 0.8670099 0.8054219    1,2,3
+
+Variables in credible sets:
+
+[1] variable      variable_prob cs           
+<0 rows> (or 0-length row.names)
+
+Credible sets summary:
+
+data frame with 0 columns and 0 rows
+NULL
+[1] "ENSG00000099810.18"
+[1] "MTAP"
+[1] "Testis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 0 0
+[1] "Did not find gene in all pairs data"

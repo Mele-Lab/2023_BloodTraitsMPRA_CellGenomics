@@ -1,0 +1,366 @@
+[1] "trait"
+[1] "PP"
+[1] "trait_file_header_info"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/PP_Evangelou_parsed.txt"
+[1] "Tested_Allele"
+[1] "Other_Allele"
+[1] "SNP"
+[1] "CHR"
+[1] "POS"
+[1] "P"
+[1] "N"
+[1] "Freq_Tested_Allele"
+[1] "traitType:"
+[1] "quant"
+[1] 2
+[1] "Locus Info:"
+[1] 2
+[1] 65276452
+[1] 65298282
+[1] "rs74181299"
+[1] "QTL type:"
+[1] "eqtl"
+[1] TRUE
+[1] "trait input file successfully loaded"
+   CHR      POS       SNP Tested_Allele Other_Allele Freq_Tested_Allele    BETA
+1:   2 65276452 rs1009358             T            C             0.6212 -0.2241
+2:   2 65276736 rs2540951             A            G             0.6213 -0.2243
+3:   2 65279223 rs2540950             T            C             0.3523 -0.2222
+4:   2 65279321 rs2723066             T            G             0.6481 -0.2202
+5:   2 65279414 rs2723065             A            G             0.6212 -0.2235
+6:   2 65279805 rs2723064             T            C             0.6216 -0.2230
+       SE         P      N Ref_Allele Alt_Allele
+1: 0.0210 1.346e-26 734932          T          C
+2: 0.0210 1.264e-26 734463          A          G
+3: 0.0214 3.431e-25 727190          C          T
+4: 0.0213 5.865e-25 735416          T          G
+5: 0.0210 2.001e-26 736087          A          G
+6: 0.0210 2.512e-26 735717          T          C
+[1] "rs1009358" "rs2540951" "rs2540950"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/data/Coloq/chr_2_snp151_hash_table.json"
+$rs222
+[1] "chr2_98531409"
+
+$rs223
+[1] "chr2_132615083"
+
+$rs525
+[1] "chr2_171558018"
+
+[1] "hash table loaded"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/ColocQuiaL-main/GTEx_v8_Tissue_Summary_with_filenames_all.csv"
+                          Tissue NumberRNASeqandGTSamples NumberRNASeqSamples
+1              Muscle - Skeletal                      706                 803
+2                    Whole Blood                      670                 755
+3 Skin - Sun Exposed (Lower leg)                      605                 701
+4                Artery - Tibial                      584                 663
+5         Adipose - Subcutaneous                      581                 663
+6                        Thyroid                      574                 653
+  Number_of_eGenes                      allPairsTabixFilename
+1            13532            Muscle_Skeletal.allpairs.tab.gz
+2            12360                Whole_Blood.allpairs.tab.gz
+3            16967 Skin_Sun_Exposed_Lower_leg.allpairs.tab.gz
+4            15008              Artery_Tibial.allpairs.tab.gz
+5            15607       Adipose_Subcutaneous.allpairs.tab.gz
+6            17684                    Thyroid.allpairs.tab.gz
+                                              sigPairsTabixFilename
+1            Muscle_Skeletal.v8.v8.signif_variant_gene_pairs.tab.gz
+2                Whole_Blood.v8.v8.signif_variant_gene_pairs.tab.gz
+3 Skin_Sun_Exposed_Lower_leg.v8.v8.signif_variant_gene_pairs.tab.gz
+4              Artery_Tibial.v8.v8.signif_variant_gene_pairs.tab.gz
+5       Adipose_Subcutaneous.v8.v8.signif_variant_gene_pairs.tab.gz
+6                    Thyroid.v8.v8.signif_variant_gene_pairs.tab.gz
+[1] "chr2_65056838"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1568   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.21e-41  1.73e-21  2.00e-22  3.80e-03  9.96e-01 
+[1] "PP abf for shared variant: 99.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1862   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.36e-27  3.29e-08  6.78e-22  1.54e-02  9.85e-01 
+[1] "PP abf for shared variant: 98.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1764   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.88e-34  2.37e-14  2.65e-22  5.34e-03  9.95e-01 
+[1] "PP abf for shared variant: 99.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1470   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.06e-56  1.46e-36  2.37e-22  4.70e-03  9.95e-01 
+[1] "PP abf for shared variant: 99.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000138069.16"
+[1] "RAB1A"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1470   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.14e-22  9.94e-03  3.79e-22  8.13e-03  9.82e-01 
+[1] "PP abf for shared variant: 98.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1568   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.58e-39  8.64e-20  2.31e-22  4.60e-03  9.95e-01 
+[1] "PP abf for shared variant: 99.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1568   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.54e-27  6.15e-08  3.06e-22  6.43e-03  9.94e-01 
+[1] "PP abf for shared variant: 99.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1568   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.01e-34  2.46e-15  2.17e-22  4.29e-03  9.96e-01 
+[1] "PP abf for shared variant: 99.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1862   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.24e-27  1.26e-07  2.77e-22  5.67e-03  9.94e-01 
+[1] "PP abf for shared variant: 99.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1568   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.73e-29  1.61e-09  2.17e-22  4.21e-03  9.96e-01 
+[1] "PP abf for shared variant: 99.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1470   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.37e-36  1.28e-16  2.62e-22  5.28e-03  9.95e-01 
+[1] "PP abf for shared variant: 99.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1470   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.99e-50  9.56e-31  2.19e-22  4.26e-03  9.96e-01 
+[1] "PP abf for shared variant: 99.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Breast_Mammary_Tissue"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1568   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.10e-21  2.65e-02  2.76e-22  5.64e-03  9.68e-01 
+[1] "PP abf for shared variant: 96.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1470   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.13e-33  1.22e-13  2.85e-22  5.77e-03  9.94e-01 
+[1] "PP abf for shared variant: 99.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1372   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.27e-42  7.79e-23  2.12e-22  4.05e-03  9.96e-01 
+[1] "PP abf for shared variant: 99.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Heart_Atrial_Appendage"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1470   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.38e-42  5.69e-23  3.16e-22  6.58e-03  9.93e-01 
+[1] "PP abf for shared variant: 99.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Colon_Transverse"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1568   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.06e-24  4.93e-05  2.44e-22  4.85e-03  9.95e-01 
+[1] "PP abf for shared variant: 99.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Esophagus_Gastroesophageal_Junction"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1470   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.31e-33  1.03e-13  2.55e-22  5.10e-03  9.95e-01 
+[1] "PP abf for shared variant: 99.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Stomach"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 1372   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.51e-25  1.33e-05  7.41e-22  1.69e-02  9.83e-01 
+[1] "PP abf for shared variant: 98.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000011523.13"
+[1] "CEP68"
+[1] "Testis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 0 0
+[1] "Did not find gene in all pairs data"

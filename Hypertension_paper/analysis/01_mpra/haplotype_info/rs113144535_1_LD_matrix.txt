@@ -1,0 +1,2 @@
+rs113144535	Count	Frequency
+AAAAAA	1006	1.0

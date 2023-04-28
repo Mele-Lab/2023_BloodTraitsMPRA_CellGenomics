@@ -1,0 +1,13 @@
+
+########## GTEx eQTL data for ColocQuiaL ########
+
+Files needed: 
+	1. all_pairs file: file with all pairs of variant-gene tested
+	2. sig_pairs file: file with significant variant-gene correlations (eQTLs)
+
+What do we have? 
+1. I symlinked the sig_pairs file from the GTEx data folder. v8. Data downloaded by Raquel
+2. I downloaded the all_pairs file from GTEx webpage, v7. I downloaded v7 because v8 is stored in google Cloud and you have to pay to get access to it. For now I'll be using v7. 
+
+
+** all_pairs files that are with the sig_pairs are v7 GTEx hg19 liftedover to hg38 with liftOver. *** 

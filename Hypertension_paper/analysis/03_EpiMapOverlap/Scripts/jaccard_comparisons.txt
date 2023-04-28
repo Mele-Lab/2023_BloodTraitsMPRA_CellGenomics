@@ -1,0 +1,6 @@
+encode_narrow_CM.gz	encode_narrow_VSMC.gz
+encode_narrow_CM_2.gz	encode_narrow_VSMC.gz
+encode_narrow_CM.gz	encode_narrow_CM_2.gz
+encode_narrow_hek293.gz	encode_narrow_CM.gz
+encode_narrow_hek293.gz	encode_narrow_CM_2.gz
+encode_narrow_hek293.gz	encode_narrow_VSMC.gz

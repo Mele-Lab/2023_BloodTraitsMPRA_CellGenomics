@@ -1,0 +1,7 @@
+rs560355	rs693147	rs8258	Count	Frequency
+G	C	C	618	0.6143
+C	A	T	364	0.3618
+C	A	C	8	0.008
+G	A	C	7	0.007
+G	C	T	7	0.007
+C	C	C	2	0.002

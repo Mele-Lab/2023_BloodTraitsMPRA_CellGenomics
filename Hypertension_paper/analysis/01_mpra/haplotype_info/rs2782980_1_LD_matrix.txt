@@ -1,0 +1,4 @@
+rs2782980	rs2782981	Count	Frequency
+C	C	700	0.6958
+T	T	304	0.3022
+C	T	2	0.002

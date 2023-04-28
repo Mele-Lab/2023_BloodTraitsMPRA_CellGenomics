@@ -1,0 +1,2902 @@
+[1] "trait"
+[1] "DBP"
+[1] "trait_file_header_info"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/DBP_Evangelou_parsed.txt"
+[1] "Tested_Allele"
+[1] "Other_Allele"
+[1] "SNP"
+[1] "CHR"
+[1] "POS"
+[1] "P"
+[1] "N"
+[1] "Freq_Tested_Allele"
+[1] "traitType:"
+[1] "quant"
+[1] 6
+[1] "Locus Info:"
+[1] 6
+[1] 32577633
+[1] 32679326
+[1] "rs1794519"
+[1] "QTL type:"
+[1] "eqtl"
+[1] TRUE
+[1] "trait input file successfully loaded"
+   CHR      POS       SNP Tested_Allele Other_Allele Freq_Tested_Allele    BETA
+1:   6 32605884 rs2187668             T            C             0.1453 -0.3428
+2:   6 32651477 rs3134978             A            T             0.8558 -0.3474
+3:   6 32651641 rs3134977             T            G             0.1444 -0.3472
+4:   6 32657436 rs3129716             T            C             0.8564 -0.3488
+5:   6 32659609 rs2647004             T            C             0.8560 -0.3432
+6:   6 32659645 rs2856674             A            G             0.8552 -0.3380
+       SE         P      N Ref_Allele Alt_Allele
+1: 0.0266 6.428e-38 652561          C          T
+2: 0.0267 1.367e-38 648667          A          T
+3: 0.0267 1.327e-38 648467          G          T
+4: 0.0267 5.495e-39 657448          T          C
+5: 0.0264 1.027e-38 666465          T          C
+6: 0.0262 5.767e-38 666515          A          G
+[1] "rs2187668" "rs3134978" "rs3134977"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/data/Coloq/chr_6_snp151_hash_table.json"
+$rs233
+[1] "chr6_163282976"
+
+$rs553
+[1] "chr6_131890900"
+
+$rs577
+[1] "chr6_157944003"
+
+[1] "hash table loaded"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/ColocQuiaL-main/GTEx_v8_Tissue_Summary_with_filenames_all.csv"
+                          Tissue NumberRNASeqandGTSamples NumberRNASeqSamples
+1              Muscle - Skeletal                      706                 803
+2                    Whole Blood                      670                 755
+3 Skin - Sun Exposed (Lower leg)                      605                 701
+4                Artery - Tibial                      584                 663
+5         Adipose - Subcutaneous                      581                 663
+6                        Thyroid                      574                 653
+  Number_of_eGenes                      allPairsTabixFilename
+1            13532            Muscle_Skeletal.allpairs.tab.gz
+2            12360                Whole_Blood.allpairs.tab.gz
+3            16967 Skin_Sun_Exposed_Lower_leg.allpairs.tab.gz
+4            15008              Artery_Tibial.allpairs.tab.gz
+5            15607       Adipose_Subcutaneous.allpairs.tab.gz
+6            17684                    Thyroid.allpairs.tab.gz
+                                              sigPairsTabixFilename
+1            Muscle_Skeletal.v8.v8.signif_variant_gene_pairs.tab.gz
+2                Whole_Blood.v8.v8.signif_variant_gene_pairs.tab.gz
+3 Skin_Sun_Exposed_Lower_leg.v8.v8.signif_variant_gene_pairs.tab.gz
+4              Artery_Tibial.v8.v8.signif_variant_gene_pairs.tab.gz
+5       Adipose_Subcutaneous.v8.v8.signif_variant_gene_pairs.tab.gz
+6                    Thyroid.v8.v8.signif_variant_gene_pairs.tab.gz
+[1] "chr6_32694696"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.06e-36  2.46e-04  2.33e-34  1.31e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.34e-34  8.14e-03  2.30e-34  1.30e-02  9.79e-01 
+[1] "PP abf for shared variant: 97.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.00e-38  1.21e-06  2.24e-34  1.26e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204267.13"
+[1] "TAP2"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.81e-33  1.10e-01  1.85e-34  1.03e-02  8.80e-01 
+[1] "PP abf for shared variant: 88%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.98e-36  1.20e-04  2.19e-34  1.23e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204308.7"
+[1] "RNF5"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.03e-37  2.44e-05  2.22e-34  1.25e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.38e-38  2.05e-06  1.93e-34  1.07e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000213676.10"
+[1] "ATF6B"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.13e-33  6.82e-02  1.78e-34  9.84e-03  9.22e-01 
+[1] "PP abf for shared variant: 92.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000213722.8"
+[1] "DDAH2"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.15e-33  1.30e-01  1.91e-34  1.07e-02  8.59e-01 
+[1] "PP abf for shared variant: 85.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000221988.12"
+[1] "PPT2"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.06e-34  2.46e-02  1.97e-34  1.10e-02  9.64e-01 
+[1] "PP abf for shared variant: 96.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000231852.6"
+[1] "CYP21A2"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.32e-34  1.41e-02  1.91e-34  1.06e-02  9.75e-01 
+[1] "PP abf for shared variant: 97.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.07e-40  1.25e-08  2.06e-34  1.15e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000240065.7"
+[1] "PSMB9"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.05e-33  1.24e-01  1.92e-34  1.08e-02  8.65e-01 
+[1] "PP abf for shared variant: 86.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Muscle_Skeletal"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 311831     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.83e-42  3.53e-10  1.77e-34  9.74e-03  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.07e-35  2.57e-03  1.85e-34  1.07e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000196126.11"
+[1] "HLA-DRB1"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.03e-33  1.91e-01  1.58e-34  9.16e-03  8.00e-01 
+[1] "PP abf for shared variant: 80%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000196735.11"
+[1] "HLA-DQA1"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.00e-32  6.30e-01  7.72e-35  4.50e-03  3.65e-01 
+[1] "PP abf for shared variant: 36.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.30e-34  8.21e-03  1.96e-34  1.13e-02  9.80e-01 
+[1] "PP abf for shared variant: 98%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.56e-33  4.14e-01  1.35e-34  7.95e-03  5.79e-01 
+[1] "PP abf for shared variant: 57.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.93e-38  6.26e-06  2.28e-34  1.34e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204351.11"
+[1] "SKIV2L"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.04e-32  6.53e-01  7.47e-35  4.37e-03  3.43e-01 
+[1] "PP abf for shared variant: 34.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.74e-33  4.88e-01  1.08e-34  6.31e-03  5.06e-01 
+[1] "PP abf for shared variant: 50.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000224389.8"
+[1] "C4B"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.25e-37  7.91e-06  1.84e-34  1.06e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000231852.6"
+[1] "CYP21A2"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.84e-37  1.16e-05  1.89e-34  1.09e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.08e-32  6.84e-01  6.38e-35  3.71e-03  3.13e-01 
+[1] "PP abf for shared variant: 31.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000240065.7"
+[1] "PSMB9"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.88e-33  4.34e-01  1.11e-34  6.47e-03  5.60e-01 
+[1] "PP abf for shared variant: 56%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Whole_Blood"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347664     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.85e-39  2.42e-07  1.75e-34  1.01e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.34e-39  2.67e-07  2.29e-34  1.31e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.66e-35  1.63e-03  2.08e-34  1.18e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.71e-38  1.67e-06  2.03e-34  1.15e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.69e-36  4.11e-04  2.12e-34  1.20e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204308.7"
+[1] "RNF5"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.05e-34  1.87e-02  2.05e-34  1.16e-02  9.70e-01 
+[1] "PP abf for shared variant: 97%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.78e-39  1.09e-07  1.93e-34  1.09e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.87e-33  1.15e-01  1.95e-34  1.11e-02  8.74e-01 
+[1] "PP abf for shared variant: 87.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000224389.8"
+[1] "C4B"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.19e-39  5.65e-07  2.12e-34  1.20e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000231852.6"
+[1] "CYP21A2"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.60e-42  1.60e-10  1.93e-34  1.09e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Skin_Sun_Exposed_Lower_leg"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.50e-41  9.22e-10  1.86e-34  1.04e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.02e-35  1.95e-03  2.20e-34  1.32e-02  9.85e-01 
+[1] "PP abf for shared variant: 98.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.30e-32  8.40e-01  3.12e-35  1.86e-03  1.58e-01 
+[1] "PP abf for shared variant: 15.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.96e-36  5.14e-04  2.20e-34  1.32e-02  9.86e-01 
+[1] "PP abf for shared variant: 98.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204308.7"
+[1] "RNF5"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.88e-33  4.45e-01  1.28e-34  7.75e-03  5.47e-01 
+[1] "PP abf for shared variant: 54.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.51e-38  2.92e-06  1.81e-34  1.07e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204351.11"
+[1] "SKIV2L"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.69e-33  1.09e-01  1.72e-34  1.03e-02  8.80e-01 
+[1] "PP abf for shared variant: 88%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000231852.6"
+[1] "CYP21A2"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.66e-37  4.95e-05  2.02e-34  1.21e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.33e-33  8.60e-02  2.11e-34  1.27e-02  9.01e-01 
+[1] "PP abf for shared variant: 90.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.74e-37  4.35e-05  2.12e-34  1.27e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000248290"
+[1] "ENSG00000248290.1"
+[1] "ENSG00000248290"
+[1] "Artery_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.80e-33  4.40e-01  1.13e-34  6.73e-03  5.54e-01 
+[1] "PP abf for shared variant: 55.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.20e-34  7.51e-03  2.27e-34  1.32e-02  9.79e-01 
+[1] "PP abf for shared variant: 97.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.05e-35  4.42e-03  2.04e-34  1.18e-02  9.84e-01 
+[1] "PP abf for shared variant: 98.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.43e-36  3.41e-04  1.80e-34  1.03e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.91e-42  3.71e-10  1.79e-34  1.03e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204351.11"
+[1] "SKIV2L"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.29e-33  5.83e-01  8.16e-35  4.71e-03  4.13e-01 
+[1] "PP abf for shared variant: 41.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204410.14"
+[1] "MSH5"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.30e-33  5.21e-01  1.06e-34  6.19e-03  4.73e-01 
+[1] "PP abf for shared variant: 47.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.07e-32  6.71e-01  7.35e-35  4.29e-03  3.25e-01 
+[1] "PP abf for shared variant: 32.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000231852.6"
+[1] "CYP21A2"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.60e-39  5.40e-07  1.97e-34  1.14e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.92e-37  1.83e-05  2.06e-34  1.19e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000240065.7"
+[1] "PSMB9"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.42e-33  8.93e-02  1.69e-34  9.73e-03  9.01e-01 
+[1] "PP abf for shared variant: 90.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Adipose_Subcutaneous"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.97e-42  3.12e-10  1.71e-34  9.73e-03  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.47e-38  5.91e-06  2.09e-34  1.21e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.03e-36  5.63e-04  2.09e-34  1.21e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.06e-39  4.40e-07  3.06e-34  1.81e-02  9.82e-01 
+[1] "PP abf for shared variant: 98.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.63e-34  1.64e-02  1.88e-34  1.07e-02  9.73e-01 
+[1] "PP abf for shared variant: 97.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204308.7"
+[1] "RNF5"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.25e-33  7.77e-02  1.87e-34  1.07e-02  9.12e-01 
+[1] "PP abf for shared variant: 91.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.92e-46  3.69e-14  1.68e-34  9.48e-03  9.91e-01 
+[1] "PP abf for shared variant: 99.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204351.11"
+[1] "SKIV2L"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.02e-33  4.38e-01  1.16e-34  6.67e-03  5.56e-01 
+[1] "PP abf for shared variant: 55.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204385.10"
+[1] "SLC44A4"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.53e-33  9.57e-02  1.85e-34  1.06e-02  8.94e-01 
+[1] "PP abf for shared variant: 89.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204410.14"
+[1] "MSH5"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.48e-34  1.54e-02  2.10e-34  1.22e-02  9.72e-01 
+[1] "PP abf for shared variant: 97.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.37e-34  2.72e-02  2.32e-34  1.35e-02  9.59e-01 
+[1] "PP abf for shared variant: 95.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.08e-35  2.54e-03  1.82e-34  1.04e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.95e-47  1.84e-15  1.85e-34  1.05e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000250535"
+[1] "ENSG00000250535.1"
+[1] "ENSG00000250535"
+[1] "Thyroid"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 368531     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.46e-33  5.28e-01  8.90e-35  5.08e-03  4.67e-01 
+[1] "PP abf for shared variant: 46.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 362245     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.65e-36  1.09e-04  2.36e-34  1.46e-02  9.85e-01 
+[1] "PP abf for shared variant: 98.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 362245     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.26e-33  1.49e-01  1.72e-34  1.05e-02  8.41e-01 
+[1] "PP abf for shared variant: 84.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 362245     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.82e-33  3.17e-01  1.32e-34  8.00e-03  6.75e-01 
+[1] "PP abf for shared variant: 67.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 362245     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.14e-43  5.36e-11  1.67e-34  1.00e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000213719.8"
+[1] "CLIC1"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 362245     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.34e-33  4.17e-01  1.22e-34  7.44e-03  5.75e-01 
+[1] "PP abf for shared variant: 57.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 362245     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.21e-33  6.07e-01  8.16e-35  4.98e-03  3.89e-01 
+[1] "PP abf for shared variant: 38.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000231852.6"
+[1] "CYP21A2"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 362245     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.05e-33  5.30e-01  9.51e-35  5.80e-03  4.64e-01 
+[1] "PP abf for shared variant: 46.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 362245     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.12e-33  2.06e-01  1.67e-34  1.02e-02  7.84e-01 
+[1] "PP abf for shared variant: 78.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 362245     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.45e-42  5.56e-10  2.02e-34  1.23e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000248290"
+[1] "ENSG00000248290.1"
+[1] "ENSG00000248290"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 362245     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.23e-33  8.11e-02  1.75e-34  1.06e-02  9.08e-01 
+[1] "PP abf for shared variant: 90.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.95e-41  2.34e-09  3.50e-34  1.97e-02  9.80e-01 
+[1] "PP abf for shared variant: 98%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.00e-35  1.78e-03  2.16e-34  1.18e-02  9.86e-01 
+[1] "PP abf for shared variant: 98.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.23e-35  1.91e-03  2.08e-34  1.13e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.72e-33  1.61e-01  1.88e-34  1.03e-02  8.29e-01 
+[1] "PP abf for shared variant: 82.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204308.7"
+[1] "RNF5"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.79e-33  1.65e-01  2.25e-34  1.25e-02  8.22e-01 
+[1] "PP abf for shared variant: 82.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.15e-39  6.78e-08  2.62e-34  1.45e-02  9.86e-01 
+[1] "PP abf for shared variant: 98.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.32e-35  1.37e-03  2.54e-34  1.41e-02  9.85e-01 
+[1] "PP abf for shared variant: 98.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000224389.8"
+[1] "C4B"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.33e-36  2.56e-04  2.69e-34  1.49e-02  9.85e-01 
+[1] "PP abf for shared variant: 98.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000231852.6"
+[1] "CYP21A2"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.73e-37  1.02e-05  2.41e-34  1.33e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Skin_Not_Sun_Exposed_Suprapubic"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 365669     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.66e-43  3.35e-11  2.34e-34  1.29e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 375222     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.63e-38  2.90e-06  1.72e-34  9.80e-03  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000196735.11"
+[1] "HLA-DQA1"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 375222     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.00e-33  3.13e-01  1.35e-34  7.78e-03  6.80e-01 
+[1] "PP abf for shared variant: 68%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 375222     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.90e-34  4.32e-02  1.84e-34  1.06e-02  9.46e-01 
+[1] "PP abf for shared variant: 94.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 375222     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.20e-35  3.26e-03  1.75e-34  9.98e-03  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204308.7"
+[1] "RNF5"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 375222     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.39e-33  2.75e-01  1.35e-34  7.75e-03  7.17e-01 
+[1] "PP abf for shared variant: 71.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 375222     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.61e-38  1.64e-06  1.78e-34  1.02e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000213719.8"
+[1] "CLIC1"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 375222     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.18e-32  7.37e-01  5.06e-35  2.91e-03  2.60e-01 
+[1] "PP abf for shared variant: 26%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 375222     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.74e-33  1.09e-01  1.82e-34  1.05e-02  8.81e-01 
+[1] "PP abf for shared variant: 88.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000231852.6"
+[1] "CYP21A2"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 375222     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.19e-34  4.50e-02  1.88e-34  1.08e-02  9.44e-01 
+[1] "PP abf for shared variant: 94.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 375222     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.79e-44  1.12e-12  1.72e-34  9.77e-03  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.94e-39  4.71e-07  1.93e-34  1.04e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.44e-34  5.60e-02  1.91e-34  1.04e-02  9.34e-01 
+[1] "PP abf for shared variant: 93.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204228.3"
+[1] "HSD17B8"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.91e-33  1.73e-01  1.76e-34  9.63e-03  8.17e-01 
+[1] "PP abf for shared variant: 81.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.52e-36  3.87e-04  2.30e-34  1.27e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.19e-33  7.08e-02  1.93e-34  1.05e-02  9.19e-01 
+[1] "PP abf for shared variant: 91.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.05e-39  6.25e-08  1.97e-34  1.07e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204420.8"
+[1] "MPIG6B"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.84e-33  1.69e-01  1.77e-34  9.68e-03  8.22e-01 
+[1] "PP abf for shared variant: 82.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204421.2"
+[1] "LY6G6C"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.62e-35  4.52e-03  2.42e-34  1.34e-02  9.82e-01 
+[1] "PP abf for shared variant: 98.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.02e-34  1.79e-02  2.13e-34  1.17e-02  9.70e-01 
+[1] "PP abf for shared variant: 97%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000231852.6"
+[1] "CYP21A2"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.68e-33  1.59e-01  1.79e-34  9.81e-03  8.31e-01 
+[1] "PP abf for shared variant: 83.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351265     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.36e-38  8.06e-07  1.96e-34  1.07e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.16e-35  1.89e-03  2.12e-34  1.17e-02  9.86e-01 
+[1] "PP abf for shared variant: 98.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.29e-33  1.97e-01  1.60e-34  8.76e-03  7.95e-01 
+[1] "PP abf for shared variant: 79.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204267.13"
+[1] "TAP2"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.80e-33  5.86e-01  8.58e-35  4.72e-03  4.09e-01 
+[1] "PP abf for shared variant: 40.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.78e-37  1.06e-05  1.94e-34  1.06e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.51e-38  9.02e-07  2.22e-34  1.23e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000213719.8"
+[1] "CLIC1"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.26e-32  7.56e-01  5.10e-35  2.81e-03  2.41e-01 
+[1] "PP abf for shared variant: 24.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.35e-37  1.41e-05  1.85e-34  1.01e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000240065.7"
+[1] "PSMB9"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.92e-35  3.54e-03  1.91e-34  1.04e-02  9.86e-01 
+[1] "PP abf for shared variant: 98.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.37e-39  8.20e-08  1.94e-34  1.06e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000250535"
+[1] "ENSG00000250535.1"
+[1] "ENSG00000250535"
+[1] "Adipose_Visceral_Omentum"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.56e-33  1.53e-01  2.00e-34  1.11e-02  8.36e-01 
+[1] "PP abf for shared variant: 83.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.45e-34  9.33e-03  2.05e-34  1.22e-02  9.78e-01 
+[1] "PP abf for shared variant: 97.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000196735.11"
+[1] "HLA-DQA1"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.79e-33  5.01e-01  1.01e-34  5.97e-03  4.93e-01 
+[1] "PP abf for shared variant: 49.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.05e-33  6.76e-02  1.86e-34  1.10e-02  9.21e-01 
+[1] "PP abf for shared variant: 92.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.79e-34  3.72e-02  2.04e-34  1.22e-02  9.51e-01 
+[1] "PP abf for shared variant: 95.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.57e-34  4.22e-02  1.73e-34  1.02e-02  9.48e-01 
+[1] "PP abf for shared variant: 94.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204308.7"
+[1] "RNF5"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.49e-34  2.24e-02  1.79e-34  1.05e-02  9.67e-01 
+[1] "PP abf for shared variant: 96.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.18e-40  7.58e-09  2.08e-34  1.24e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.54e-37  2.27e-05  1.88e-34  1.11e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.18e-43  7.61e-12  2.21e-34  1.32e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000248290"
+[1] "ENSG00000248290.1"
+[1] "ENSG00000248290"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.29e-32  8.27e-01  3.52e-35  2.09e-03  1.71e-01 
+[1] "PP abf for shared variant: 17.1%"
+[1] "susie can't run in these pair"
+[1] "ENSEMBL ID could not be converted to HGNC Symbol"
+[1] "geneSymbol will be set to the ENSEMBL ID ENSG00000250535"
+[1] "ENSG00000250535.1"
+[1] "ENSG00000250535"
+[1] "Esophagus_Muscularis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.26e-32  8.07e-01  3.90e-35  2.32e-03  1.91e-01 
+[1] "PP abf for shared variant: 19.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Breast_Mammary_Tissue"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351442     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.66e-34  3.50e-02  1.93e-34  1.10e-02  9.54e-01 
+[1] "PP abf for shared variant: 95.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Breast_Mammary_Tissue"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351442     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.13e-33  1.93e-01  1.67e-34  9.53e-03  7.97e-01 
+[1] "PP abf for shared variant: 79.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Breast_Mammary_Tissue"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351442     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.17e-39  2.58e-07  1.66e-34  9.29e-03  9.91e-01 
+[1] "PP abf for shared variant: 99.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Breast_Mammary_Tissue"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351442     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.02e-35  6.33e-04  2.00e-34  1.13e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Breast_Mammary_Tissue"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 351442     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.30e-41  8.01e-10  1.98e-34  1.12e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.17e-33  1.30e-01  1.73e-34  9.54e-03  8.60e-01 
+[1] "PP abf for shared variant: 86%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000196126.11"
+[1] "HLA-DRB1"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.77e-35  1.06e-03  2.02e-34  1.11e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.00e-32  6.03e-01  8.22e-35  4.54e-03  3.93e-01 
+[1] "PP abf for shared variant: 39.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.93e-34  1.76e-02  2.02e-34  1.12e-02  9.71e-01 
+[1] "PP abf for shared variant: 97.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.67e-34  4.01e-02  1.81e-34  9.95e-03  9.50e-01 
+[1] "PP abf for shared variant: 95%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.01e-38  2.41e-06  1.89e-34  1.04e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000231852.6"
+[1] "CYP21A2"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.80e-36  5.29e-04  2.27e-34  1.27e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.31e-34  3.79e-02  2.09e-34  1.16e-02  9.51e-01 
+[1] "PP abf for shared variant: 95.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Artery_Aorta"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 347841     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.58e-39  2.75e-07  1.87e-34  1.02e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 326235     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.41e-35  5.28e-03  2.07e-34  1.20e-02  9.83e-01 
+[1] "PP abf for shared variant: 98.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000196735.11"
+[1] "HLA-DQA1"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 326235     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.32e-33  3.34e-01  1.80e-34  1.07e-02  6.56e-01 
+[1] "PP abf for shared variant: 65.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 326235     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.13e-33  4.47e-01  1.11e-34  6.39e-03  5.46e-01 
+[1] "PP abf for shared variant: 54.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 326235     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.08e-34  6.75e-03  2.07e-34  1.20e-02  9.81e-01 
+[1] "PP abf for shared variant: 98.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 326235     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.51e-35  3.46e-03  1.76e-34  1.00e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 326235     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.53e-37  1.59e-05  1.85e-34  1.06e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 326235     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.23e-33  4.54e-01  1.20e-34  6.98e-03  5.39e-01 
+[1] "PP abf for shared variant: 53.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 326235     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.10e-37  4.46e-05  1.86e-34  1.07e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Heart_Left_Ventricle"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 326235     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.02e-40  4.41e-08  1.79e-34  1.02e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Heart_Atrial_Appendage"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 329836     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.17e-33  3.36e-01  1.33e-34  8.01e-03  6.56e-01 
+[1] "PP abf for shared variant: 65.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Heart_Atrial_Appendage"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 329836     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.04e-32  6.78e-01  6.22e-35  3.73e-03  3.18e-01 
+[1] "PP abf for shared variant: 31.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Heart_Atrial_Appendage"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 329836     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.14e-34  1.39e-02  1.71e-34  1.01e-02  9.76e-01 
+[1] "PP abf for shared variant: 97.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204301.6"
+[1] "NOTCH4"
+[1] "Heart_Atrial_Appendage"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 329836     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.13e-32  7.36e-01  5.01e-35  2.99e-03  2.61e-01 
+[1] "PP abf for shared variant: 26.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Heart_Atrial_Appendage"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 329836     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.76e-36  3.09e-04  1.68e-34  9.92e-03  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204351.11"
+[1] "SKIV2L"
+[1] "Heart_Atrial_Appendage"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 329836     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 9.40e-33  6.11e-01  7.31e-35  4.37e-03  3.85e-01 
+[1] "PP abf for shared variant: 38.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Heart_Atrial_Appendage"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 329836     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.17e-35  4.66e-03  1.73e-34  1.02e-02  9.85e-01 
+[1] "PP abf for shared variant: 98.5%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Heart_Atrial_Appendage"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 329836     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.26e-40  2.12e-08  1.62e-34  9.56e-03  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Colon_Transverse"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.68e-36  1.61e-04  2.28e-34  1.27e-02  9.87e-01 
+[1] "PP abf for shared variant: 98.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Colon_Transverse"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.14e-33  4.30e-01  1.19e-34  6.61e-03  5.64e-01 
+[1] "PP abf for shared variant: 56.4%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Colon_Transverse"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.48e-34  3.90e-02  1.99e-34  1.10e-02  9.50e-01 
+[1] "PP abf for shared variant: 95%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204308.7"
+[1] "RNF5"
+[1] "Colon_Transverse"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.23e-34  7.41e-03  1.97e-34  1.09e-02  9.82e-01 
+[1] "PP abf for shared variant: 98.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Colon_Transverse"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 5.49e-35  3.30e-03  1.93e-34  1.07e-02  9.86e-01 
+[1] "PP abf for shared variant: 98.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Colon_Transverse"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.23e-32  7.40e-01  5.81e-35  3.24e-03  2.57e-01 
+[1] "PP abf for shared variant: 25.7%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Colon_Transverse"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 355043     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.23e-39  2.55e-07  1.91e-34  1.05e-02  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Esophagus_Gastroesophageal_Junction"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.21e-34  6.90e-03  2.29e-34  1.21e-02  9.81e-01 
+[1] "PP abf for shared variant: 98.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000196735.11"
+[1] "HLA-DQA1"
+[1] "Esophagus_Gastroesophageal_Junction"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.60e-33  4.91e-01  1.11e-34  5.81e-03  5.03e-01 
+[1] "PP abf for shared variant: 50.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Esophagus_Gastroesophageal_Junction"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.30e-34  2.46e-02  1.90e-34  9.91e-03  9.66e-01 
+[1] "PP abf for shared variant: 96.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Esophagus_Gastroesophageal_Junction"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.64e-37  9.35e-06  2.06e-34  1.08e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204366.3"
+[1] "ZBTB12"
+[1] "Esophagus_Gastroesophageal_Junction"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.06e-32  6.06e-01  8.20e-35  4.29e-03  3.90e-01 
+[1] "PP abf for shared variant: 39%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Esophagus_Gastroesophageal_Junction"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 7.62e-36  4.35e-04  2.10e-34  1.10e-02  9.89e-01 
+[1] "PP abf for shared variant: 98.9%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Esophagus_Gastroesophageal_Junction"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 337038     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.25e-40  4.71e-08  1.86e-34  9.65e-03  9.90e-01 
+[1] "PP abf for shared variant: 99%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000179344.16"
+[1] "HLA-DQB1"
+[1] "Stomach"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 340639     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.57e-34  1.60e-02  2.01e-34  1.15e-02  9.72e-01 
+[1] "PP abf for shared variant: 97.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000198502.5"
+[1] "HLA-DRB5"
+[1] "Stomach"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 340639     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.59e-33  4.10e-01  1.23e-34  7.05e-03  5.83e-01 
+[1] "PP abf for shared variant: 58.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204257.14"
+[1] "HLA-DMA"
+[1] "Stomach"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 340639     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.09e-33  6.79e-02  2.01e-34  1.16e-02  9.21e-01 
+[1] "PP abf for shared variant: 92.1%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204308.7"
+[1] "RNF5"
+[1] "Stomach"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 340639     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 6.72e-34  4.18e-02  1.86e-34  1.07e-02  9.48e-01 
+[1] "PP abf for shared variant: 94.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000204338.8"
+[1] "CYP21A1P"
+[1] "Stomach"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 340639     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.09e-35  5.04e-03  2.00e-34  1.15e-02  9.83e-01 
+[1] "PP abf for shared variant: 98.3%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000223534.1"
+[1] "HLA-DQB1-AS1"
+[1] "Stomach"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 340639     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 3.18e-33  1.98e-01  1.69e-34  9.72e-03  7.92e-01 
+[1] "PP abf for shared variant: 79.2%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000232629.8"
+[1] "HLA-DQB2"
+[1] "Stomach"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 340639     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 1.50e-33  9.37e-02  1.84e-34  1.06e-02  8.96e-01 
+[1] "PP abf for shared variant: 89.6%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000244731.7"
+[1] "C4A"          "LOC110384692"
+[1] "Using first gene symbol:  C4A"
+[1] "Stomach"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 340639     14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 8.59e-36  5.35e-04  2.08e-34  1.20e-02  9.88e-01 
+[1] "PP abf for shared variant: 98.8%"
+[1] "susie can't run in these pair"
+[1] "ENSG00000168394.10"
+[1] "TAP1"
+[1] "Testis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 0 0
+[1] "Did not find gene in all pairs data"

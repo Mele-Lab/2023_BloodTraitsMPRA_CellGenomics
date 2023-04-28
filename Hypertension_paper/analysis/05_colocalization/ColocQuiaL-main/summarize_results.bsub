@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name="summarize_qtl_results"
+#SBATCH --output=TRAITNAME_COLOC_Results_Summary.%A_%a.out
+#SBATCH --error=TRAITNAME_COLOC_Results_Summary.%A_%a.err
+#SBATCH --time=10:00:00
+#SBATCH --qos=bsc_ls
+#SBATCH -N 1
+#SBATCH --cpus-per-task=10
+
+module load R
+
+COLOCQUIAL_DIR/summarize_qtl_results.sh
+
+#COLOCQUIAL_DIR/summarize_qtl_results.susie.sh

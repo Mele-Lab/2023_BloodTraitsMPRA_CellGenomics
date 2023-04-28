@@ -1,0 +1,15 @@
+Status	hisat2//V1_21d/V1_21d.bam
+Assigned	50052988
+Unassigned_Unmapped	1002514
+Unassigned_Read_Type	0
+Unassigned_Singleton	0
+Unassigned_MappingQuality	0
+Unassigned_Chimera	0
+Unassigned_FragmentLength	0
+Unassigned_Duplicate	0
+Unassigned_MultiMapping	36444693
+Unassigned_Secondary	0
+Unassigned_NonSplit	0
+Unassigned_NoFeatures	6397234
+Unassigned_Overlapping_Length	0
+Unassigned_Ambiguity	15610316

@@ -1,0 +1,10 @@
+Artery_Aorta.v8.signif_variant_gene_pairs.txt.gz
+Heart_Atrial_Appendage.v8.signif_variant_gene_pairs.txt.gz
+Artery_Coronary.v8.signif_variant_gene_pairs.txt.gz
+Heart_Left_Ventricle.v8.signif_variant_gene_pairs.txt.gz
+Artery_Tibial.v8.signif_variant_gene_pairs.txt.gz
+Artery_Aorta.allpairs.txt.gz
+Artery_Coronary.allpairs.txt.gz
+Artery_Tibial.allpairs.txt.gz
+Heart_Atrial_Appendage.allpairs.txt.gz
+Heart_Left_Ventricle.allpairs.txt.gz

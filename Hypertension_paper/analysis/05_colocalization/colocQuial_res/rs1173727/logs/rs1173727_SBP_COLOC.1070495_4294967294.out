@@ -1,0 +1,176 @@
+[1] "trait"
+[1] "SBP"
+[1] "trait_file_header_info"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/SBP_Evangelou_parsed.txt"
+[1] "Tested_Allele"
+[1] "Other_Allele"
+[1] "SNP"
+[1] "CHR"
+[1] "POS"
+[1] "P"
+[1] "N"
+[1] "Freq_Tested_Allele"
+[1] "traitType:"
+[1] "quant"
+[1] 5
+[1] "Locus Info:"
+[1] 5
+[1] 32815028
+[1] 32832474
+[1] "rs1173727"
+[1] "QTL type:"
+[1] "eqtl"
+[1] TRUE
+[1] "trait input file successfully loaded"
+   CHR      POS       SNP Tested_Allele Other_Allele Freq_Tested_Allele   BETA
+1:   5 32815028 rs1173771             A            G             0.3987 0.6321
+2:   5 32819073 rs9292468             T            C             0.3990 0.6330
+3:   5 32820552 rs2193951             T            G             0.4125 0.6334
+4:   5 32820553 rs2193950             T            C             0.4106 0.6334
+5:   5 32821211 rs1173770             T            C             0.3984 0.6343
+6:   5 32828846 rs7733331             T            C             0.3989 0.6383
+       SE        P      N Ref_Allele Alt_Allele
+1: 0.0307 5.92e-94 734826          A          G
+2: 0.0308 3.85e-94 732534          T          C
+3: 0.0313 5.23e-91 704421          T          G
+4: 0.0312 1.81e-91 708494          T          C
+5: 0.0308 1.77e-94 732871          T          C
+6: 0.0308 1.15e-95 732667          T          C
+[1] "rs1173771" "rs9292468" "rs2193951"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/data/Coloq/chr_5_snp151_hash_table.json"
+$rs385
+[1] "chr5_9617268"
+
+$rs387
+[1] "chr5_9604894"
+
+$rs388
+[1] "chr5_9604859"
+
+[1] "hash table loaded"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/ColocQuiaL-main/GTEx_v8_Tissue_Summary_with_filenames_all.csv"
+                          Tissue NumberRNASeqandGTSamples NumberRNASeqSamples
+1              Muscle - Skeletal                      706                 803
+2                    Whole Blood                      670                 755
+3 Skin - Sun Exposed (Lower leg)                      605                 701
+4                Artery - Tibial                      584                 663
+5         Adipose - Subcutaneous                      581                 663
+6                        Thyroid                      574                 653
+  Number_of_eGenes                      allPairsTabixFilename
+1            13532            Muscle_Skeletal.allpairs.tab.gz
+2            12360                Whole_Blood.allpairs.tab.gz
+3            16967 Skin_Sun_Exposed_Lower_leg.allpairs.tab.gz
+4            15008              Artery_Tibial.allpairs.tab.gz
+5            15607       Adipose_Subcutaneous.allpairs.tab.gz
+6            17684                    Thyroid.allpairs.tab.gz
+                                              sigPairsTabixFilename
+1            Muscle_Skeletal.v8.v8.signif_variant_gene_pairs.tab.gz
+2                Whole_Blood.v8.v8.signif_variant_gene_pairs.tab.gz
+3 Skin_Sun_Exposed_Lower_leg.v8.v8.signif_variant_gene_pairs.tab.gz
+4              Artery_Tibial.v8.v8.signif_variant_gene_pairs.tab.gz
+5       Adipose_Subcutaneous.v8.v8.signif_variant_gene_pairs.tab.gz
+6                    Thyroid.v8.v8.signif_variant_gene_pairs.tab.gz
+[1] "chr5_32830415"
+[1] "ENSG00000113389.15"
+[1] "NPR3"
+[1] "Nerve_Tibial"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 451  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+1.30e-108  2.97e-20  1.75e-91  3.00e-03  9.97e-01 
+[1] "PP abf for shared variant: 99.7%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        5    0.38048885  1
+        1    0.25373852  1
+        2    0.20723862  1
+        8    0.10058632  1
+        4    0.04809727  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2  variable
+  1   91.77113 0.9810217 0.9528981 1,2,4,5,8
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        1     0.5085511  1
+        5     0.4910493  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2 variable
+  1   28.52018         1         1      1,5
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+3.98e-117  2.11e-28  1.19e-91  4.31e-03  9.96e-01 
+[1] "PP abf for shared variant: 99.6%"
+   nsnps       hit1       hit2     PP.H0.abf  PP.H1.abf    PP.H2.abf
+1:     9 rs12656497 rs10059884 3.979532e-117 2.1145e-28 1.186464e-91
+     PP.H3.abf PP.H4.abf idx1 idx2
+1: 0.004312829 0.9956872    1    1
+[1] "ENSG00000113389.15"
+[1] "NPR3"
+[1] "Lung"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 410  14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.29e-97  9.70e-09  2.50e-91  4.66e-03  9.95e-01 
+[1] "PP abf for shared variant: 99.5%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        5    0.38048885  1
+        1    0.25373852  1
+        2    0.20723862  1
+        8    0.10058632  1
+        4    0.04809727  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2  variable
+  1   91.77113 0.9810217 0.9528981 1,2,4,5,8
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        2    0.29025691  1
+        4    0.28704676  1
+        1    0.16001355  1
+        5    0.16001355  1
+        8    0.05383193  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2  variable
+  1   10.75428 0.9810217 0.9528981 1,2,4,5,8
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 4.03e-99  2.14e-10  2.06e-91  8.97e-03  9.91e-01 
+[1] "PP abf for shared variant: 99.1%"
+   nsnps       hit1      hit2    PP.H0.abf   PP.H1.abf    PP.H2.abf   PP.H3.abf
+1:     9 rs12656497 rs1173727 4.032491e-99 2.14264e-10 2.061067e-91 0.008969296
+   PP.H4.abf idx1 idx2
+1: 0.9910307    1    1
+[1] "ENSG00000113389.15"
+[1] "NPR3"
+[1] "Testis"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 0 0
+[1] "Did not find gene in all pairs data"

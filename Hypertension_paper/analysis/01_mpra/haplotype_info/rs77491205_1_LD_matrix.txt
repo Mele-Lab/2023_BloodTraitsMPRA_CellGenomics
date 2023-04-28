@@ -1,0 +1,2 @@
+rs77491205	Count	Frequency
+TCTCTGTCTCTGTC	1006	1.0

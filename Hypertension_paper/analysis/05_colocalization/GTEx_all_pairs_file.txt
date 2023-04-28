@@ -1,0 +1,5 @@
+Artery_Aorta.allpairs.tab.gz	Artery_Aorta
+Artery_Coronary.allpairs.tab.gz	Artery_Coronary
+Artery_Tibial.allpairs.tab.gz	Artery_Tibial
+Heart_Atrial_Appendage.allpairs.tab.gz	Heart_Atrial_Appendage
+Heart_Left_Ventricle.allpairs.tab.gz	Heart_Left_Ventricle

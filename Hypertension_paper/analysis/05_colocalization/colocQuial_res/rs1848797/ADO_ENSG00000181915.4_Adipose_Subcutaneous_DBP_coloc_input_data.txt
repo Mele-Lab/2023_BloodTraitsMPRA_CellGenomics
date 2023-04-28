@@ -1,0 +1,2 @@
+SNP	chromosome_position	chrom_b38	chromEnd_b38	eGeneID	pvalue_eQTL	maf	ma_samples	slope	slope_se	CHR	POS	Tested_Allele_trait	Other_Allele_trait	Freq_Tested_Allele_trait	BETA	SE	P	N	Ref_Allele	Alt_Allele
+rs2236295	chr10_62805132	chr10	62805131	ENSG00000181915	4.03937e-05	0.340314	213	-0.17314	0.0415846	10	64564892	T	G	0.3992	-0.207	0.0177	1.419e-31	747662	G	T

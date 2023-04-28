@@ -1,0 +1,74 @@
+[1] "trait"
+[1] "SBP"
+[1] "trait_file_header_info"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/SBP_Evangelou_parsed.txt"
+[1] "Tested_Allele"
+[1] "Other_Allele"
+[1] "SNP"
+[1] "CHR"
+[1] "POS"
+[1] "P"
+[1] "N"
+[1] "Freq_Tested_Allele"
+[1] "traitType:"
+[1] "quant"
+[1] 12
+[1] "Locus Info:"
+[1] 12
+[1] 89941549
+[1] 90091782
+[1] "rs11431123"
+[1] "QTL type:"
+[1] "eqtl"
+[1] TRUE
+[1] "trait input file successfully loaded"
+   CHR      POS        SNP Tested_Allele Other_Allele Freq_Tested_Allele
+1:  12 89941549  rs4842666             T            C             0.8351
+2:  12 89942390 rs11105328             A            G             0.8374
+3:  12 90008959  rs2681472             A            G             0.8309
+4:  12 90013089  rs2681492             T            C             0.8306
+5:  12 90019178 rs57481061             C            G             0.8356
+6:  12 90026462 rs11105352             A            G             0.1651
+      BETA     SE         P      N Ref_Allele Alt_Allele
+1: -0.8091 0.0412 6.311e-86 716673          T          C
+2: -0.8040 0.0411 4.370e-85 726782          A          G
+3: -0.8310 0.0402 4.000e-95 736427          A          G
+4: -0.8324 0.0401 1.660e-95 735907          T          C
+5: -0.8331 0.0406 9.820e-94 740756          C          G
+6: -0.8445 0.0407 1.050e-95 734106          G          A
+[1] "rs4842666"  "rs11105328" "rs2681472" 
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/data/Coloq/chr_12_snp151_hash_table.json"
+$rs309
+[1] "chr12_92237146"
+
+$rs440
+[1] "chr12_111790910"
+
+$rs441
+[1] "chr12_111791045"
+
+[1] "hash table loaded"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/ColocQuiaL-main/GTEx_v8_Tissue_Summary_with_filenames_all.csv"
+                          Tissue NumberRNASeqandGTSamples NumberRNASeqSamples
+1              Muscle - Skeletal                      706                 803
+2                    Whole Blood                      670                 755
+3 Skin - Sun Exposed (Lower leg)                      605                 701
+4                Artery - Tibial                      584                 663
+5         Adipose - Subcutaneous                      581                 663
+6                        Thyroid                      574                 653
+  Number_of_eGenes                      allPairsTabixFilename
+1            13532            Muscle_Skeletal.allpairs.tab.gz
+2            12360                Whole_Blood.allpairs.tab.gz
+3            16967 Skin_Sun_Exposed_Lower_leg.allpairs.tab.gz
+4            15008              Artery_Tibial.allpairs.tab.gz
+5            15607       Adipose_Subcutaneous.allpairs.tab.gz
+6            17684                    Thyroid.allpairs.tab.gz
+                                              sigPairsTabixFilename
+1            Muscle_Skeletal.v8.v8.signif_variant_gene_pairs.tab.gz
+2                Whole_Blood.v8.v8.signif_variant_gene_pairs.tab.gz
+3 Skin_Sun_Exposed_Lower_leg.v8.v8.signif_variant_gene_pairs.tab.gz
+4              Artery_Tibial.v8.v8.signif_variant_gene_pairs.tab.gz
+5       Adipose_Subcutaneous.v8.v8.signif_variant_gene_pairs.tab.gz
+6                    Thyroid.v8.v8.signif_variant_gene_pairs.tab.gz
+[1] "chr12_89652740"
+[1] "rs11431123 is not a significant eqtl in any tissue in the eqtl dataset."

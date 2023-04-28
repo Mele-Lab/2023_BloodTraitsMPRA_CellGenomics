@@ -1,0 +1,127 @@
+[1] "trait"
+[1] "DBP"
+[1] "trait_file_header_info"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/DBP_Evangelou_parsed.txt"
+[1] "Tested_Allele"
+[1] "Other_Allele"
+[1] "SNP"
+[1] "CHR"
+[1] "POS"
+[1] "P"
+[1] "N"
+[1] "Freq_Tested_Allele"
+[1] "traitType:"
+[1] "quant"
+[1] 3
+[1] "Locus Info:"
+[1] 3
+[1] 169091569
+[1] 169173670
+[1] "rs2421647"
+[1] "QTL type:"
+[1] "eqtl"
+[1] TRUE
+[1] "trait input file successfully loaded"
+   CHR       POS       SNP Tested_Allele Other_Allele Freq_Tested_Allele   BETA
+1:   3 169091569 rs1290790             A            T             0.5524 0.2708
+2:   3 169092995 rs1273885             T            C             0.4405 0.2677
+3:   3 169094763 rs1273884             A            G             0.4408 0.2675
+4:   3 169096900 rs1290784             T            C             0.4480 0.2700
+5:   3 169097381 rs1290786             T            C             0.4330 0.2673
+6:   3 169098791  rs988397             T            C             0.4409 0.2676
+       SE         P      N Ref_Allele Alt_Allele
+1: 0.0175 3.974e-54 744137          A          T
+2: 0.0175 5.364e-53 746114          C          T
+3: 0.0175 6.103e-53 746146          G          A
+4: 0.0174 1.787e-54 752125          C          T
+5: 0.0174 5.108e-53 751859          C          T
+6: 0.0174 1.985e-53 753714          C          T
+[1] "rs1290790" "rs1273885" "rs1273884"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/data/Coloq/chr_3_snp151_hash_table.json"
+$rs224
+[1] "chr3_194857582"
+
+$rs225
+[1] "chr3_194857561"
+
+$rs226
+[1] "chr3_7864904"
+
+[1] "hash table loaded"
+[1] "/gpfs/projects/bsc83/Projects/Breast/ANALYSIS/Hypertension/analysis/06_colocalization/ColocQuiaL-main/GTEx_v8_Tissue_Summary_with_filenames_all.csv"
+                          Tissue NumberRNASeqandGTSamples NumberRNASeqSamples
+1              Muscle - Skeletal                      706                 803
+2                    Whole Blood                      670                 755
+3 Skin - Sun Exposed (Lower leg)                      605                 701
+4                Artery - Tibial                      584                 663
+5         Adipose - Subcutaneous                      581                 663
+6                        Thyroid                      574                 653
+  Number_of_eGenes                      allPairsTabixFilename
+1            13532            Muscle_Skeletal.allpairs.tab.gz
+2            12360                Whole_Blood.allpairs.tab.gz
+3            16967 Skin_Sun_Exposed_Lower_leg.allpairs.tab.gz
+4            15008              Artery_Tibial.allpairs.tab.gz
+5            15607       Adipose_Subcutaneous.allpairs.tab.gz
+6            17684                    Thyroid.allpairs.tab.gz
+                                              sigPairsTabixFilename
+1            Muscle_Skeletal.v8.v8.signif_variant_gene_pairs.tab.gz
+2                Whole_Blood.v8.v8.signif_variant_gene_pairs.tab.gz
+3 Skin_Sun_Exposed_Lower_leg.v8.v8.signif_variant_gene_pairs.tab.gz
+4              Artery_Tibial.v8.v8.signif_variant_gene_pairs.tab.gz
+5       Adipose_Subcutaneous.v8.v8.signif_variant_gene_pairs.tab.gz
+6                    Thyroid.v8.v8.signif_variant_gene_pairs.tab.gz
+[1] "chr3_169395322"
+[1] "ENSG00000241479.1"
+[1] "MECOM-AS1"
+[1] "Esophagus_Mucosa"
+[1] "running liftOver"
+[1] "Grabbing the all pairs data"
+[1] "reading the all pairs data into R"
+[1] 5612   14
+[1] "Filtering on the geneID"
+[1] "adding rs numbers to the QTL data"
+[1] "merging the trait and eqtl data on unique ID"
+[1] "Running coloc"
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.84e-54  5.23e-04  1.22e-51  2.25e-01  7.75e-01 
+[1] "PP abf for shared variant: 77.5%"
+
+Variables in credible sets:
+
+ variable variable_prob cs
+       23    0.29661932  1
+        7    0.18718341  1
+       13    0.11822154  1
+       14    0.10785141  1
+       17    0.08190307  1
+       15    0.07472866  1
+       19    0.05677211  1
+        1    0.01896824  1
+        9    0.01202993  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2                variable
+  1   53.32126 0.9164689 0.8128844 1,7,9,13,14,15,17,19,23
+
+Variables in credible sets:
+
+ variable variable_prob cs
+        5    0.29889617  1
+        4    0.25673307  1
+       25    0.13940664  1
+       26    0.13120354  1
+        3    0.11893363  1
+        2    0.01150111  1
+
+Credible sets summary:
+
+ cs cs_log10bf cs_avg_r2 cs_min_r2      variable
+  1   6.208129 0.9012102 0.7291691 2,3,4,5,25,26
+PP.H0.abf PP.H1.abf PP.H2.abf PP.H3.abf PP.H4.abf 
+ 2.77e-55  1.51e-04  1.16e-51  6.34e-01  3.66e-01 
+[1] "PP abf for shared variant: 36.6%"
+   nsnps      hit1      hit2    PP.H0.abf    PP.H1.abf    PP.H2.abf PP.H3.abf
+1:    26 rs7626980 rs1290784 2.774117e-55 0.0001511343 1.164736e-51 0.6338176
+   PP.H4.abf idx1 idx2
+1: 0.3660313    1    1

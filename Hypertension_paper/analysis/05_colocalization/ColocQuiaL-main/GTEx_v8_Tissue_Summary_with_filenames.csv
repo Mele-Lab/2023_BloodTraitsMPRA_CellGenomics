@@ -1,0 +1,6 @@
+﻿Tissue,NumberRNASeqandGTSamples,NumberRNASeqSamples,Number_of_eGenes,allPairsTabixFilename,sigPairsTabixFilename
+Artery - Tibial,584,663,15008,Artery_Tibial.allpairs.tab.gz,Artery_Tibial.v8.signif_variant_gene_pairs.tab.gz
+Artery - Aorta,387,432,12493,Artery_Aorta.allpairs.tab.gz,Artery_Aorta.v8.signif_variant_gene_pairs.tab.gz
+Heart - Left Ventricle,386,432,9642,Heart_Left_Ventricle.allpairs.tab.gz,Heart_Left_Ventricle.v8.signif_variant_gene_pairs.tab.gz
+Heart - Atrial Appendage,372,429,10991,Heart_Atrial_Appendage.allpairs.tab.gz,Heart_Atrial_Appendage.v8.signif_variant_gene_pairs.tab.gz
+Artery - Coronary,213,240,6296,Artery_Coronary.allpairs.tab.gz,Artery_Coronary.v8.signif_variant_gene_pairs.tab.gz

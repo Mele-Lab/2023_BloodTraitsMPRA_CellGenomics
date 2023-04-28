@@ -1,0 +1,3 @@
+rs7500448	Count	Frequency
+A	761	0.7565
+G	245	0.2435

@@ -1,0 +1,8 @@
+rs9352664	rs9352676	rs7753358	rs1572585	rs2152951	Count	Frequency
+G	A	-	C	G	522	0.5189
+G	G	-	T	A	476	0.4732
+G	G	A	T	A	4	0.004
+G	A	-	C	A	1	0.001
+G	A	-	T	A	1	0.001
+G	G	-	C	G	1	0.001
+G	G	-	T	G	1	0.001
