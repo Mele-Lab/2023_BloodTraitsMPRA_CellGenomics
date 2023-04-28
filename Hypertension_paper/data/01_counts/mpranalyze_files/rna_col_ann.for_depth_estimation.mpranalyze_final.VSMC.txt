@@ -1,0 +1,5 @@
+	sample	condition
+VSMC_rep1	1	VSMC
+VSMC_rep2	2	VSMC
+VSMC_rep3	3	VSMC
+VSMC_rep4	4	VSMC

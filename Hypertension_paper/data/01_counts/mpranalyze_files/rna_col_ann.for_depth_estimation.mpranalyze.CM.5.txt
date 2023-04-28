@@ -1,0 +1,6 @@
+	sample	condition
+CM_rep1	1	CM
+CM_rep2	2	CM
+CM_rep3	3	CM
+CM_rep4	4	CM
+CM_rep5	5	CM
