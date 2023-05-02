@@ -1,0 +1,15 @@
+## How to get SNP id master list ####
+
+From the email from Kate I downloaded the excel file with the master list SNPs and metrics, from here I got the information for all the SNPs and copy pastet it into SNP_master.txt
+
+Then:
+awk '{{OFS="\t"} {match($1, /\_\_([a-zXY0-9]*)\_\_/, a)} {print a[1]}}' SNP_master.txt > SNP_list_master.txt
+
+Here I have the SNP names for the 4608 SNPs tested.
+
+Now: Get coordinates and run VEP and bedtools!
+
+Get coordinates with annovar.sh
+
+Run: sort -k1,1 -k2,2n snnplist.hg38.avinput > snnplist.hg38.avinput.sorted.bed 
+Then: bedtools intersect -wa -wb -a snnplist.hg38.avinput.sorted.bed -b 

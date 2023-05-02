@@ -1,0 +1,16 @@
+For the fasta file run:
+
+awk '{print ">" $19 "_" $2 "\t" $1}' design/Hypertension__pooled.index.txt > Hypertension__pooled.index.fasta
+
+sort Hypertension__pooled.index.fasta | uniq > Hypertension__pooled.index.seq.uniq
+
+awk '{print $1 "\n" $2}' Hypertension__pooled.index.seq.uniq > Hypertension__pooled.index.fasta
+
+Then: head -n -2 Hypertension__pooled.index.fasta > Hypertension__pooled.index.fa
+
+Kaia's files were downloaded from her github after clear explanations from an email on how to run FIMO
+
+FIMO command from Kaia:
+fimo --o out_dir human_cisbp_pfms.txt elements.fasta
+
+" it should spit out a file called fimo.txt that has all the results; then you can just look for motifs that are unique to either allele." 
